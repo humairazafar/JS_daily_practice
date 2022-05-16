@@ -34,3 +34,12 @@
 //   idx = array.indexOf(elem, idx + 1);
 // }
 // console.log(indices)
+const names = ['ali', 'babar', 'aashi', 'hammad']
+const idx = names.indexOf('hammad');
+// names[idx] = 'hammad';
+if(idx !== -1) {
+  console.log('yey, hammad is here')
+}else {
+  console.log('we are missing hammad')
+}
+// console.log(idx);
