@@ -303,10 +303,29 @@ Exercise 1:
 //      words.push(word);
 //       alert("you have entered: " + words.join(', '));
 // }
-const favTv = ['dhoop kinare', 'tehtra aangan', 'zubaida']
-console.log(favTv.length);
-favTv.pop();
-favTv.shift();
-favTv.unshift('hamid piya');
-favTv.push('mehmood sahib');
-console.log(favTv);
+// const favTv = ['dhoop kinare', 'tehtra aangan', 'zubaida']
+// console.log(favTv.length);
+// favTv.pop();
+// favTv.shift();
+// favTv.unshift('hamid piya');
+// favTv.push('mehmood sahib');
+// console.log(favTv);
+
+//Looping over an array with a For of loop
+//for(element of an array){...what to do in each loop}
+// const pokemon = ['Pickachu', 'Mew', 'Snorlax']
+// for(poke of pokemon){
+//   console.log(`I have caught ${poke}`);
+// }
+//Multi-dimensional arrays
+// const arr = [1,2,[3,4,[5,6]],[7,8]]
+// //accessing number 3
+// console.log(arr[3][1])
+// console.log(arr[2][2][1])
+// console.log(arr[3][1])
+//const arr = [5,4,3,2,1]
+// console.log(arr.sort());
+//array method slice 
+const arr = [2,3,3,3,4]
+let slArr = arr.slice(1,4);
+console.log(slArr)
